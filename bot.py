@@ -5,7 +5,8 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import time
 from telegram import Bot
-import telebot
+from app import keep_alive
+keep_alive()
 
 cc = 'btcusd'
 interval = '1m'
